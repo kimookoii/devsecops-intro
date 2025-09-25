@@ -1,3 +1,4 @@
-# greeting.py
-def say_hello(name: str) -> str:
+def greeting(name):
     return f"Hello {name}, welcome to DevSecOps!"
+if __name__ == "__main__":
+    print(greeting("Mahasiswa"))
